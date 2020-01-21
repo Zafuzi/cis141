@@ -31,8 +31,9 @@
 	fscanf(STDIN, "%f", $price_005);
 	$total += $price_005;
 
-	printf("\n Sub Total: %.2f", $total);
-	printf("\n Tax Amount: %.3f", $tax_rate);
+	printf("\n Sub Total: $%.2f", $total);
+	printf("\n Tax Rate: %.1f%%", $tax_rate * 100);
 	// round up to get correct grand total
-	printf("\n Grand Total: %.2f\n", round($total + ($total * $tax_rate), 2)); 
+	$grand_total = round($total + ($total * $tax_rate), 2);
+	printf("\n Grand Total: $%.2f\n", $grand_total); 
 ?>
