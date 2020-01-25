@@ -16,7 +16,6 @@
 		$msg = "$5000 + 10% of loan over $50,000";
 		$deposit = 5000 + ($loan_amt - 50000) * 0.10;
 	} else {
-		// Loans over 100,000 are not allowed
 		$msg = "LOANS OVER $100,000 ARE NOT ALLOWED!";
 		$deposit = 0; 
 	}
