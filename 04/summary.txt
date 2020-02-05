@@ -1,0 +1,10 @@
+
+                  SALES REPORT
+ITEM ID     ITEM NAME          SALES DIFF                  MESSAGE
+W111        widget                     -5            HUMAN DID BAD
+D222        DoDad                       4           HUMAN DID GOOD
+T333        Thingy                      0           HUMAN DID OKAY
+S444        Something                   1           HUMAN DID GOOD
+
+PROCESSED 4 RECORDS
+
