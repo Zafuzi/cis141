@@ -1,0 +1,7 @@
+
+SUMMARY REPORT
+
+Married Men:       1
+Single Men:        2
+Married Women:     1
+Single Women:      1
